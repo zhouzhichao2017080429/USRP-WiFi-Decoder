@@ -87,13 +87,9 @@ The main files and folders are organized as follows.
 .
 |-- decode_usrp_wifi_auto_english.m
 |-- decode_usrp_wifi_auto_chinese.m
-|-- output.xlsx
 |-- usrp_wifi_20260611_ch36_20Msps_sc16_fs20Msps_dur0p479355s.bin
-|-- usrp_wifi_20260611_ch36_20Msps_sc16_fs20Msps_dur0p479355s.zip
 |-- usrp_wifi_20260611_085346_ch36_rx2_20Msps_sc16_signal.png
-`-- 关键步骤截图/
-    |-- key steps (english)/
-    `-- key steps (chinese)/
+|-- key steps (chinese)/
 ```
 
 The main script for English output is `decode_usrp_wifi_auto_english.m`.
@@ -106,9 +102,7 @@ The Chinese version is kept as a reference in `decode_usrp_wifi_auto_chinese.m`.
 ## 环境依赖
 
 - MATLAB.
-- MATLAB。
 - WLAN Toolbox.
-- WLAN Toolbox。
 - A WiFi IQ capture in a supported raw format.
 - 一份支持格式的 WiFi IQ 原始采集数据。
 - Supported formats include `sc16` and `fc32`.
@@ -152,12 +146,8 @@ Open MATLAB.
 Change MATLAB's current folder to the repository folder.
 将 MATLAB 当前工作目录切换到本仓库文件夹。
 
-Run the following command.
-运行以下命令。
-
-```matlab
-results = decode_usrp_wifi_auto_english;
-```
+Run.
+运行。
 
 The script automatically searches for the preferred `.bin` capture file in the same folder.
 脚本会自动在同一文件夹中查找优先使用的 `.bin` 采集文件。
@@ -200,7 +190,6 @@ Excel 文件包含以下列。
 - Start Sample.
 - 起始采样点。
 - MCS.
-- MCS。
 - PSDU Length.
 - PSDU 长度。
 - Bit Order.
@@ -308,14 +297,6 @@ Recommended `.gitattributes` entries for Git LFS are shown below.
 If this code or capture workflow is useful in your work, please cite the corresponding project, paper, or dataset release when available.
 如果本代码或采集流程对你的工作有帮助，请在可用时引用对应的项目、论文或数据集发布版本。
 
-## License
-## 许可证
-
-No license has been specified yet.
-目前尚未指定许可证。
-
-Please add a license file before public reuse or redistribution.
-在公开复用或再分发之前，请添加许可证文件。
 
 
 Please add a license file before public reuse or redistribution.
