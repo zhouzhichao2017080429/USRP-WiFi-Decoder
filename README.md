@@ -19,6 +19,13 @@ Your support is greatly appreciated. I will continue sharing my latest research 
 
 不胜感激，我会将最新研究成果分享与大家！
 
+Captured Single-Channel WiFi Signal:
+
+捕获WiFi单信道信号展示：
+
+<img width="2340" height="1800" alt="usrp_wifi_20260611_085346_ch36_rx2_20Msps_sc16_signal" src="https://github.com/user-attachments/assets/fa38f66d-dc9d-4d61-bc59-cc9366425d2e" />
+
+
 Frame Header Detection Results:
 
 帧头捕获结果：
