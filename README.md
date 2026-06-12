@@ -25,6 +25,23 @@ Frame Header Detection Results:
 
 <img width="3208" height="2063" alt="01_packet_detection" src="https://github.com/user-attachments/assets/d9833ce3-bc2b-4e90-856a-bc9098ad7edc" />
 
+Frequency Synchronization Results:
+
+频率同步结果：
+
+<img width="2160" height="1296" alt="05_cfo_three_frequency_lines" src="https://github.com/user-attachments/assets/ee445d10-eefc-4ccb-b447-173fd4e8940a" />
+
+Equalization Results:
+
+均衡结果：
+
+<img width="3208" height="2177" alt="03_lltf_channel_estimation" src="https://github.com/user-attachments/assets/c4623d1a-0d4c-44fb-bce3-726cfab6a70d" />
+
+Demodulation Parameter Extraction Results:
+
+解调参数获取结果：
+
+<img width="2194" height="1565" alt="04_lsig_parse" src="https://github.com/user-attachments/assets/b6f70065-b6e9-4155-b0ea-1af131e423d5" />
 
 
 # USRP WiFi SSID Decoder with MATLAB WLAN Toolbox
