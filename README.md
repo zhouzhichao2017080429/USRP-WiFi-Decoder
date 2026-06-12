@@ -5,9 +5,11 @@ A USRP-based WiFi signal acquisition and parsing framework that replaces convent
 # 基于 MATLAB WLAN Toolbox 的 USRP WiFi SSID 解码器
 
 This repository contains a MATLAB-based offline decoder for WiFi management frames captured by a USRP B210.
+
 本仓库包含一个基于 MATLAB 的离线解码程序，用于解析 USRP B210 采集到的 WiFi 管理帧。
 
 It reads interleaved `sc16` IQ samples, detects 802.11 non-HT OFDM packets, corrects carrier frequency offset, estimates the L-LTF channel, parses L-SIG, demodulates non-HT data, and extracts SSID/BSSID information.
+
 程序读取交织存储的 `sc16` IQ 采样，检测 802.11 non-HT OFDM 包，完成载波频偏校正、L-LTF 信道估计、L-SIG 解析、non-HT 数据解调，并提取 SSID/BSSID 信息。
 
 ## Features
@@ -268,6 +270,10 @@ If this code or capture workflow is useful in your work, please cite the corresp
 
 No license has been specified yet.
 目前尚未指定许可证。
+
+Please add a license file before public reuse or redistribution.
+在公开复用或再分发之前，请添加许可证文件。
+
 
 Please add a license file before public reuse or redistribution.
 在公开复用或再分发之前，请添加许可证文件。
