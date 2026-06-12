@@ -4,6 +4,29 @@ A USRP-based WiFi signal acquisition and parsing framework that replaces convent
 这是一个基于 USRP 的 WiFi 信号采集与解析框架，使用软件定义无线电替代传统无线网卡。该框架支持原始信号采集、基带处理、帧检测、解调、译码以及 IEEE 802.11 数据包解析。
 （不能代替无线网卡，只能用于WiFi信号分析）
 
+## before all
+## 写在所有内容之前的部分
+
+If you use this code in your research, please cite the following papers:
+
+如果论文用到本代码请尽可能引用下列文章：
+
+Z. Zhou, C. Hou, Z. Song, B. Wang, X. Wu and Z. Liu, "Wireless Communication Network Multi-Node Topology Inference Method With Maximizing Information Utilization Based on GCN," in IEEE Transactions on Cognitive Communications and Networking, vol. 12, pp. 4319-4331, 2026
+
+Zhou Zhichao,Hou Changbo,Meng Guojing,et al.Research on the digital twin of communication relationships in the electromagnetic spectrum of wireless local area networks[J].Journal on Communications,2026,47(05):78-90.
+
+Your support is greatly appreciated. I will continue sharing my latest research with the community!
+
+不胜感激，我会将最新研究成果分享与大家！
+
+Frame Header Detection Results:
+
+帧头捕获结果：
+
+<img width="3208" height="2063" alt="01_packet_detection" src="https://github.com/user-attachments/assets/d9833ce3-bc2b-4e90-856a-bc9098ad7edc" />
+
+
+
 # USRP WiFi SSID Decoder with MATLAB WLAN Toolbox
 # 基于 MATLAB WLAN Toolbox 的 USRP WiFi SSID 解码器
 
