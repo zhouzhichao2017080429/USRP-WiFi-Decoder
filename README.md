@@ -50,6 +50,12 @@ Demodulation Parameter Extraction Results:
 
 <img width="2194" height="1565" alt="04_lsig_parse" src="https://github.com/user-attachments/assets/b6f70065-b6e9-4155-b0ea-1af131e423d5" />
 
+Final Result:
+
+解析结果：
+
+<img width="1701" height="246" alt="image" src="https://github.com/user-attachments/assets/4db05a03-2be5-4973-8c74-5f9c100111c5" />
+
 
 # USRP WiFi SSID Decoder with MATLAB WLAN Toolbox
 # 基于 MATLAB WLAN Toolbox 的 USRP WiFi SSID 解码器
