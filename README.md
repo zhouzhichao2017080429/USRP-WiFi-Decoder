@@ -1,6 +1,9 @@
 # USRP-WiFi-Decoder
 A USRP-based WiFi signal acquisition and parsing framework that replaces conventional wireless network interface cards with software-defined radio. It supports raw signal capture, baseband processing, frame detection, demodulation, decoding, and IEEE 802.11 packet parsing.
 
+这是一个基于 USRP 的 WiFi 信号采集与解析框架，使用软件定义无线电替代传统无线网卡。该框架支持原始信号采集、基带处理、帧检测、解调、译码以及 IEEE 802.11 数据包解析。
+（不能代替无线网卡，只能用于WiFi信号分析）
+
 # USRP WiFi SSID Decoder with MATLAB WLAN Toolbox
 # 基于 MATLAB WLAN Toolbox 的 USRP WiFi SSID 解码器
 
